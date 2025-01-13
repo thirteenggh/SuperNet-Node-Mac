@@ -39,7 +39,7 @@ git clone https://github.com/supernet-group/SuperNet-Node.git
 2. Compile binary executable file.
 
 ```
-CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o bin/SuperNet main.go
+CGO_ENABLED=0 GOOS=darwin GOARCH=arm64 go build -o bin/SuperNet main.go
 ```
 
 3. Write configuration file.
